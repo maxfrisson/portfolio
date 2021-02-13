@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Document</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+
+  <body>
+    <section class="banner" id="sec">
+      <header class="header">
+        <div class="header__lang">
+          <a href="about.html" class="header__lang-link header__lang_en">EN</a>
+          <a href="about-ru.html" class="header__lang-link header__lang_ru">RU</a>
+        </div>
+        <div id="toggle" onclick="toggle()"></div>
+      </header>
+      <div class="main__about">
+        <h3 class="main__about-title">
+          Расскажу немного про свой <span>стек технологий</span>, он весьма стандартен и это даже
+          хорошо. <br />
+          <span>Основа</span> - святая троица, куда же без них:
+        </h3>
+        <div class="main__about-bars container">
+          <div class="card">
+            <div class="box">
+              <div class="percent">
+                <svg>
+                  <circle cx="70" cy="70" r="70"></circle>
+                  <circle cx="70" cy="70" r="70"></circle>
+                </svg>
+                <div class="number">
+                  <h2>85<span>%</span></h2>
+                </div>
+              </div>
+              <h2 class="text">Html</h2>
+            </div>
+          </div>
+          <div class="card">
+            <div class="box">
+              <div class="percent">
+                <svg>
+                  <circle cx="70" cy="70" r="70"></circle>
+                  <circle cx="70" cy="70" r="70"></circle>
+                </svg>
+                <div class="number">
+                  <h2>80<span>%</span></h2>
+                </div>
+              </div>
+              <h2 class="text">CSS</h2>
+            </div>
+          </div>
+          <div class="card">
+            <div class="box">
+              <div class="percent">
+                <svg>
+                  <circle cx="70" cy="70" r="70"></circle>
+                  <circle cx="70" cy="70" r="70"></circle>
+                </svg>
+                <div class="number">
+                  <h2>40<span>%</span></h2>
+                </div>
+              </div>
+              <h2 class="text">JavaScript</h2>
+            </div>
+          </div>
+        </div>
+        <div class="main__about-preprocessor">
+          <h3><span>Препроцессоры :</span></h3>
+          <ul>
+            <li><span>Sass</span> (SCSS) для CSS;</li>
+            <li><span>Pug</span> для HTML(опционально).</li>
+          </ul>
+        </div>
+        <div class="main__about-text">
+          Верстаю по методологии <span>БЭМ(BEM)</span>. В работе использую <span>VScode</span>,
+          <span>Photoshop</span>, <span>Avocode</span>, <span>Figma</span>. В роли сборщика проектов
+          у меня - <span>Gulp</span>. При необходимости - <span>Webpack</span>. Есть работы на
+          <span>Bootstrap 4</span>, но фанатом данного фреймворка я так и не стал. При необходимости
+          натягиваю вёрстку сайта на <span>Wordpress</span> или подключаю более лёгкие и простые
+          админ-панели типа <span>Textolite</span>. Вы можете посмотреть <a href="myworks.html"><span>мои работы здесь.</span></a> Если возникнут какие-то вопросы,
+          вы всегда сможете найти меня по кнопкам социальных сетей на этом сайте, либо с помощью
+          раздела <a href="contact-ru.html"><span>"Написать мне".</span></a>  <span>Спасибо</span> за уделённое мне время.<br />
+          <span>Хорошего Вам дня</span>:)
+        </div>
+      </div>
+      <div class="main__social">
+        <ul class="main__social-list">
+          <li class="main__social-item">
+            <a href="https://github.com/maxfrisson" class="main__social-link"
+              ><img src="img/github.png" class="main__social-image" alt=""
+            /></a>
+          </li>
+          <li class="main__social-item">
+            <a href="https://www.linkedin.com/in/max-che-8296061a1/" class="main__social-link"
+              ><img src="img/linkedin.png" class="main__social-image" alt=""
+            /></a>
+          </li>
+          <li class="main__social-item">
+            <a
+              href="https://www.facebook.com/profile.php?id=100001814897816"
+              class="main__social-link"
+              ><img src="img/facebook.png" class="main__social-image" alt=""
+            /></a>
+          </li>
+          <li class="main__social-item">
+            <a href="https://vk.com/id13456237" class="main__social-link"
+              ><img src="img/vk.png" class="main__social-image" alt=""
+            /></a>
+          </li>
+        </ul>
+      </div>
+    </section>
+    <section class="navigation" id="navigation">
+      <div id="toggle" onclick="toggle()"></div>
+      <ul class="navigation__list">
+        <li class="navigation__item_ru"><a href="index-ru.html">Главная</a></li>
+        <li class="navigation__item_ru"><a href="about-ru.html">Обо мне</a></li>
+        <li class="navigation__item_ru">
+          <a href="myworks-ru.html">Мои работы</a>
+        </li>
+        <li class="navigation__item_ru">
+          <a href="contact-ru.html">Напишите мне</a>
+        </li>
+      </ul>
+    </section>
+
+    <script src="js/main.js"></script>
+  </body>
+</html>
