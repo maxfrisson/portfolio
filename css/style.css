@@ -230,6 +230,7 @@ a {
 .main__content h2 {
   color: #fff;
   font-size: 2em;
+  text-align: left;
 }
 
 .main__content span {
