@@ -13,6 +13,10 @@ a {
   color: inherit;
 }
 
+body {
+  overflow-x: hidden;
+}
+
 .header {
   position: absolute;
   top: 0;
