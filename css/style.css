@@ -222,7 +222,7 @@ a {
 }
 
 .main__content {
-  max-width: 800px;
+  max-width: 900px;
   text-align: justify;
 }
 
@@ -660,6 +660,12 @@ svg circle:nth-child(2) {
 /*=============================================================================*/
 
 /* ============================= MEDIA ======================================= */
+@media (max-width: 1700px) {
+  .main__content {
+    max-width: 800px;
+  }
+}
+
 @media (max-width: 1366px) {
   .main__content {
     max-width: 700px;
