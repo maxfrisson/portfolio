@@ -1,5 +1,5 @@
 @import url("https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap");
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap");
 
 * {
   padding: 0;
@@ -28,7 +28,7 @@ a {
 .header__lang-link {
   color: #fff;
   padding: 10px;
-  font-size: 18px;
+  font-size: 1.1em;
   font-weight: 700;
   text-decoration: none;
   border: 2px solid #fff;
@@ -661,6 +661,10 @@ svg circle:nth-child(2) {
 
 /* ============================= MEDIA ======================================= */
 @media (max-width: 1366px) {
+  .main__content {
+    max-width: 700px;
+  }
+
   .main__social {
     position: absolute;
     bottom: 50px;
@@ -756,6 +760,10 @@ svg circle:nth-child(2) {
 }
 
 @media (max-width: 500px) {
+  body {
+    font-size: 0.75em;
+  }
+
   #navigation {
     min-height: 100%;
   }
